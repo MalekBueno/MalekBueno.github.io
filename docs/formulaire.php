@@ -73,3 +73,14 @@
 
 </body>
 </html>
+
+
+<?php
+
+$nom = $_POST["nom"];
+$prenom = $_POST["prenom"];
+
+echo"Bonjour ", $prenom, " ", $nom, "J'espère que t'es dans l'bueno", "<br>";
+echo"<br>";
+
+?>
