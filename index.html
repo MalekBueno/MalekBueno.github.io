@@ -3,6 +3,14 @@
 <head>
  
 <title>CV - Malek EL-MEHDOUI</title>
+
+  <script>
+   function toggleCompetences() {
+    const compSection = document.getElementById('competences');
+    compSection.style.display =
+     compSection.style.display === 'none' ? 'block': 'none';
+   }
+  </script>
  
 </head>
  
@@ -12,6 +20,9 @@
 <header>
  
 <h1>Malek</h1>
+ <button onclick="toggleCompetences()">
+   Afficher / Masquer Compétences
+ </button>
  
 <p>
  
